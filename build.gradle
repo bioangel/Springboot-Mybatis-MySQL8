@@ -7,13 +7,12 @@ buildscript {
     }
 }
 
-apply plugin: 'war'
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-bootWar {
+bootJar {
     baseName = 'Springboot-Mybatis-mysql8'
     version =  '1.0'
 }
