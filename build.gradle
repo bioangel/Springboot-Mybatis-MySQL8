@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
+    }
+}
+
+apply plugin: 'war'
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+bootWar {
+    baseName = 'Springboot-Mybatis-mysql8'
+    version =  '1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile group: 'io.undertow', name: 'undertow-core', version: '2.0.1.Final'
+    compile group: 'io.undertow', name: 'undertow-servlet', version: '2.0.1.Final'
+    compile group: 'io.undertow', name: 'undertow-websockets-jsr', version: '2.0.1.Final'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.12'
+}
+
+configurations {
+    compile.exclude module: "spring-boot-starter-tomcat"
+    compile.exclude module: "spring-boot-starter-jetty"
+}
+
