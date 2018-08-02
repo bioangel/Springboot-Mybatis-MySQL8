@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8abd6d-b5cb-47ae-917b-fff5b5f8ba5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="df8abd6d-b5cb-47ae-917b-fff5b5f8ba5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,7 +70,7 @@
         <counts>
           <entry key="gradle" value="3" />
           <entry key="java" value="1538" />
-          <entry key="md" value="81" />
+          <entry key="md" value="93" />
           <entry key="sql" value="16" />
           <entry key="txt" value="10" />
           <entry key="xml" value="8" />
@@ -82,7 +80,7 @@
         <counts>
           <entry key="Groovy" value="3" />
           <entry key="JAVA" value="1538" />
-          <entry key="Markdown" value="81" />
+          <entry key="Markdown" value="93" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scratch" value="16" />
           <entry key="XML" value="8" />
@@ -134,8 +132,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -602,7 +600,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533193715159" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533193789311" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -669,12 +667,12 @@
       <workItem from="1533107575481" duration="826000" />
       <workItem from="1533108433545" duration="9966000" />
       <workItem from="1533177240897" duration="1054000" />
-      <workItem from="1533180683512" duration="12133000" />
+      <workItem from="1533180683512" duration="12207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23979000" />
+    <option name="totallyTimeSpent" value="24053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,8 +827,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
