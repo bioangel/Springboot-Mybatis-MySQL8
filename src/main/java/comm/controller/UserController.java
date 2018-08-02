@@ -1,6 +1,7 @@
-package comm;
+package comm.controller;
 
 import comm.mapper.UserMapper;
+import comm.vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -17,10 +18,10 @@ public class UserController {
         return userMapper.findByName(user.getName());
     }
 
-    @PostMapping(path = "/new")
+    @PostMapping(path = "/signin")
     public @ResponseBody
-    User addUser(@RequestBody User user) {
-        System.out.println("==============" + user.getName() + ", " + user.getEmail());
-        return userMapper.addUser(user.getName(), user.getEmail());
+    String addUser(@RequestBody User user) {
+        userMapper.addUser(user);
+        return "Saved";
     }
 }

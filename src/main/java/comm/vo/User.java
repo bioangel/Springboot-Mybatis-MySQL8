@@ -1,4 +1,4 @@
-package comm;
+package comm.vo;
 
 import java.io.Serializable;
 
